@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "name": "Social",
+    "icon": "comment"
+  },
+  "options": {},
+  "attributes": {
+    "header_text": {
+      "type": "string",
+      "required": false
+    },
+    "social_images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

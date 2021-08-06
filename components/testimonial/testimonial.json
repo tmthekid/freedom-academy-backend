@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_testimonial_testimonials",
+  "info": {
+    "name": "testimonial",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "testimonial_header": {
+      "type": "string",
+      "required": true
+    },
+    "testimonial_text": {
+      "type": "richtext"
+    },
+    "testimonial_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonial.testimonial-card"
+    }
+  }
+}

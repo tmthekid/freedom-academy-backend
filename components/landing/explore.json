@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_explores",
+  "info": {
+    "name": "explore",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

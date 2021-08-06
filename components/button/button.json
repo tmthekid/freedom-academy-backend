@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_button_buttons",
+  "info": {
+    "name": "button",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

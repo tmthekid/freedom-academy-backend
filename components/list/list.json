@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_footer_lists",
+  "info": {
+    "name": "List",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

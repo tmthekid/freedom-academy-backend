@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_landing_image_contents",
+  "info": {
+    "name": "ImageContent",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer"
+    },
+    "first_paragraph": {
+      "type": "richtext"
+    },
+    "second_paragraph": {
+      "type": "richtext"
+    }
+  }
+}
